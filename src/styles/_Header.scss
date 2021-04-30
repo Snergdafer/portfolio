@@ -1,0 +1,35 @@
+.Header {
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(15, 16, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Icon {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo {
+    margin-top: 25px;
+    background-image: url(../media/Logo.png);
+    width: 70px;
+    height: 75px;
+    background-size: cover;
+}
