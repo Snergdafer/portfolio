@@ -1,7 +1,9 @@
 @import './reset';
 @import './Header';
 @import './Home';
-
+@import './Code';
+@import './Photos';
+@import './Contact';
 .App {
     width: 100vw;
     height: 100vh;
@@ -25,4 +27,16 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a {
+    color: inherit;
+}
+
+.content {
+    height: 85%;
+    width: 90%;
+    background-color: rgba(53, 53, 65, 0.733);
+    border-radius: 50px;
+    padding: 40px;
 }

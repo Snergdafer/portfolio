@@ -31,8 +31,12 @@ const Header = () => {
             </div>
 
             <div className='social'>
+                <a href='https://www.linkedin.com/in/jesse-etherington/'>
                 <LinkedInIcon className='Icon' style={{fontSize: 40}}/>
+                </a>
+                <a href='https://github.com/Snergdafer'>
                 <GitHubIcon className='Icon' style={{fontSize: 40}}/>
+                </a>
             </div>
 
         </div>
